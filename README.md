@@ -224,6 +224,8 @@ Which of the following are integers:
    * 0b10101010
    * -42
 
+   60009, 22333, and -42 are integers
+
 
 ## Negative Integers
 
@@ -262,25 +264,25 @@ Answer the following question in your copy of the `README.md` file.
 
 * How many positive values can be represented in a 6-bit signed integer?
 
-ADD ANSWER HERE
+31
 
 * How many negative values can be represented in a 12-bit signed integer?
-
-ADD ANSWER HERE
+4,096
 
 
 * How many values can be represented in a 9-bit signed integer?
+512
 
-ADD ANSWER HERE
+
 
 * Each of the following numbers are 8-bit signed integers. For each, convert 
   them to binary then specify if it is positive or negative (you do not need to
   calculate the decimal value).
 
-  * `0xAB` - BINARY HERE - IS POSITIVE HERE?
-  * `0xFD` 
-  * `0xF1`
-  * `0xBD`
+  * `0xAB` - 0b10101011 - negative
+  * `0xFD` - 0b11111101 - negative
+  * `0xF1` - 0b11110001 - negative
+  * `0xBD` - 0b10111101 - negative
   
 ## Negative Integers in C#
 
