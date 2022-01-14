@@ -382,12 +382,13 @@ Answer the following question in your copy of the `README.md` file.
 For each of the following, specify if the resulting calculation will result in
 an Overflow, Underflow, or No Error.
 
-* Using 4-bit signed integers: 4 + 4 - ANSWER HERE
-* Using 4-bit signed integers: 0 - 4 - ANSWER HERE
-* Using 4-bit signed integers: -7 - 2
-* Using 6-bit signed integers: 30 + 2
-* Using 6-bit signed integers: 0 - 32
-* Using 6-bit signed integers: 14 - 16
+* Using 4-bit signed integers: 4 + 4 - overflow
+* Using 4-bit signed integers: 0 - 4 - no error
+* Using 4-bit signed integers: -7 - 2 - overflow 
+* Using 6-bit signed integers: 30 + 2 - overflow
+* Using 6-bit signed integers: 0 - 32 - overflow
+* Using 6-bit signed integers: 14 - 16 - no error
+
 
 ## Submit your Work
 
