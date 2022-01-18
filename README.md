@@ -226,6 +226,8 @@ Which of the following are integers:
 
    60009, 22333, and -42 are integers
 
+   FEEDBACK: 0x5723 and 0b10101010 are also integers. They're just written using hexadecimal and binary.
+
 
 ## Negative Integers
 
@@ -283,6 +285,8 @@ Answer the following question in your copy of the `README.md` file.
   * `0xFD` - 0b11111101 - negative
   * `0xF1` - 0b11110001 - negative
   * `0xBD` - 0b10111101 - negative
+
+FEEDBACK: Looks great!
   
 ## Negative Integers in C#
 
@@ -384,7 +388,13 @@ an Overflow, Underflow, or No Error.
 
 * Using 4-bit signed integers: 4 + 4 - overflow
 * Using 4-bit signed integers: 0 - 4 - no error
-* Using 4-bit signed integers: -7 - 2 - overflow 
+* Using 4-bit signed integers: -7 - 2 - overflow This will result in an
+  Underflow error.)
+
+The minimum value that can be stored in a 4-bit signed integer is -8. The
+difference `-7 - 2` is `-9` which cannot be represented. Because the result
+should be less than the minimum value, this results in an underflow error.
+
 * Using 6-bit signed integers: 30 + 2 - overflow
 * Using 6-bit signed integers: 0 - 32 - overflow
 * Using 6-bit signed integers: 14 - 16 - no error
